@@ -13,6 +13,28 @@ def square(digit):
     print(f"Square of {digit} is {square}")
     return square
     
+def div(a, b):
+    if b != 0:
+        c = a/b
+    else:
+        c = "you cant divide to zero"
+    return c
+
+def multi(a,b):
+   return a*b
+
+def sum(a,b):
+    return a+b
+
+def subtract(a,b):
+    return a-b
+
+def boolean(a):
+    if a<0:
+        return True
+    else:
+        return False
+    
 @app.route("/")
 def index():
     a = random.randint(-150, 150)
