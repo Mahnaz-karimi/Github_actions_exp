@@ -40,4 +40,12 @@ def index():
     a = random.randint(-150, 150)
     b= square(a)   
     c= "Square of {} is {}.".format(a, b)
+    d = random.randint(-150, 150)
+    if d != 0:
+        f = a/d
+    else:
+        f = "you cant divide to zero"
+    return f
+    e = "div of {} on {} is : {}".format(a, d,f)
+    
     return c
