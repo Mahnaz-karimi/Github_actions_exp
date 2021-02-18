@@ -15,5 +15,5 @@ def square(digit):
 @app.route("/")
 def index():
     a=10
-    b= square(c)    
+    b= square(a)    
     return "Square of {a} is {b}"
