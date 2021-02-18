@@ -1,6 +1,5 @@
-from app import index, square
-def test_index():
-    a=10
-    b= square(a)    
-    c="Square of ",a,"is ",b
-    assert index() == c
+from app import square
+def test_square():
+    a = random.randint(-150, 150)
+    b= a*a
+    assert b == square(a)

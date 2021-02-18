@@ -14,6 +14,7 @@ def square(digit):
     
 @app.route("/")
 def index():
-    a=10
-    b= square(a)    
-    return "Square of ",a,"is ",b
+    a = random.randint(-150, 150)
+    b= square(a)   
+    c= "Square of {} is {}.".format(a, b)
+    return c
