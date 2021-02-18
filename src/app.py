@@ -16,4 +16,4 @@ def square(digit):
 def index():
     a=10
     b= square(a)    
-    return "Square of {a} is {b}"
+    return "Square of ",a,"is ",b
