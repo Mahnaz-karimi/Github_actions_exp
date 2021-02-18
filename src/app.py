@@ -48,4 +48,4 @@ def index():
         st = "\n you cant divide to zero"
     
     
-    return c +"\n"+ st
+    return c +"\n\n\n"+ st
