@@ -1,4 +1,4 @@
-from app import square,div
+from app import square,div,multi
 import random
 def test_square():
     a = random.randint(-150, 150)
@@ -14,4 +14,9 @@ def test_div():
         c = "you cant divide to zero"
     assert c == div(a,b)
 
-
+def test_multi():
+    a = random.randint(-150, 150)
+    b = random.randint(-150, 150)
+    c= a*b
+    assert c == multi(a,b)
+    
