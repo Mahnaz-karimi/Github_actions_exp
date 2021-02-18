@@ -43,9 +43,9 @@ def index():
     d = random.randint(-150, 150)
     if d != 0:
         f = a/d
-        st = "/n div of {} on {} is : {}".format(a, d,f)
+        st = "\n div of {} on {} is : {}".format(a, d,f)
     else:
-        st = "/n you cant divide to zero"
+        st = "\n you cant divide to zero"
     
     
     return st
