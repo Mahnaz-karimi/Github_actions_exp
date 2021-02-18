@@ -45,7 +45,6 @@ def index():
         f = a/d
     else:
         f = "you cant divide to zero"
-    return f
     e = "div of {} on {} is : {}".format(a, d,f)
     
     return c
