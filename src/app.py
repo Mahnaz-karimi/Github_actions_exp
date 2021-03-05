@@ -39,7 +39,7 @@ def boolean(a):
 def index():
     a = random.randint(-150, 150)
     b= square(a)   
-    c= "Square of {} is {}.  ".format(a, b)
+    c= "Sssssquare of {} is {}.  ".format(a, b)
     d = random.randint(-150, 150)
     if d != 0:
         f = a/d
