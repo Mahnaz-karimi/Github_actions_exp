@@ -10,7 +10,7 @@ def square(digit):
     #digit = int(input("Enter an integer number: "))
     #   calculate square using exponent operator
     square = digit**2
-    print(f"Square of {digit} is {square}")
+    print(f"Sssssquare of {digit} is {square}")
     return square
     
 def div(a, b):
